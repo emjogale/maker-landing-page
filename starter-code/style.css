@@ -16,6 +16,17 @@ body {
 	font-size: 16px;
 }
 
+body {
+	font-family: "Manrope", sans-serif;
+}
+
+header {
+	width: 100%;
+	display: flex;
+	text-align: center;
+}
+
+header,
 .main {
 	display: flex;
 	flex-direction: column;
