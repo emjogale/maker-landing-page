@@ -29,20 +29,26 @@ body {
 h1 {
 	font-size: 2rem;
 	font-weight: 800;
+	font-style: normal;
+	line-height: 40px;
+	text-align: center;
 }
 
-h1.span {
+h1 span {
+	color: var(--turquoise);
 }
 
 p {
 	font-size: 1rem;
 	font-weight: 500;
+	color: var(--grey);
+	line-height: 25px;
 }
 
 /* layout styles */
 header {
 	width: 100%;
-	margin-top: 2rem;
+	margin: 2rem 0;
 }
 
 header,
@@ -63,4 +69,12 @@ header,
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+h1 {
+	margin: 1rem;
+}
+
+.scroll-img {
+	margin: 2rem 0;
 }
