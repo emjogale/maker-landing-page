@@ -38,8 +38,16 @@ h1 span {
 	color: var(--turquoise);
 }
 
+/* h2 {
+	font-size: 1.1rem;
+} */
+
+h3 {
+	font-weight: 400;
+	font-size: 1.1rem;
+}
 p {
-	font-size: 1rem;
+	font-size: 0.95rem;
 	font-weight: 500;
 	color: var(--grey);
 	line-height: 25px;
@@ -80,6 +88,11 @@ h1 {
 }
 
 /* plus-points section */
+.plus-points {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1rem;
+}
 .img-container {
 	margin: 2rem auto;
 	width: 124px;
@@ -98,4 +111,8 @@ h1 {
 img.work-from-anywhere {
 	width: 65%;
 	height: auto;
+}
+
+.plus-point h3 {
+	margin-bottom: 1rem;
 }
