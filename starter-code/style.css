@@ -78,3 +78,19 @@ h1 {
 .scroll-img {
 	margin: 2rem 0;
 }
+
+/* plus-points section */
+.img-container {
+	margin: 2rem auto;
+	width: 124px;
+	height: 124px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--dark-turquoise);
+	border-radius: 45px;
+}
+
+.plus-point img {
+	height: 80%;
+}
