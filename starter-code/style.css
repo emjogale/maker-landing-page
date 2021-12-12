@@ -92,5 +92,10 @@ h1 {
 }
 
 .plus-point img {
-	height: 80%;
+	height: 65%;
+}
+
+img.work-from-anywhere {
+	width: 65%;
+	height: auto;
 }
