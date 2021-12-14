@@ -132,7 +132,7 @@ img.work-from-anywhere {
 }
 
 .pricing h2 {
-	margin-bottom: 2rem;
+	margin-bottom: 1.5rem;
 }
 
 .plans {
@@ -144,6 +144,7 @@ img.work-from-anywhere {
 .plan {
 	padding: 1.5rem;
 	text-align: left;
+	position: relative;
 }
 
 .plan h3 {
@@ -152,4 +153,17 @@ img.work-from-anywhere {
 
 .free {
 	background-color: var(--dark-turquoise);
+}
+
+.plan img {
+	position: absolute;
+	top: -1.5rem;
+}
+
+ul {
+	list-style-image: url(/starter-code/assets/icon-check.svg);
+}
+
+.free list::marker {
+	color: white;
 }
