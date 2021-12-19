@@ -199,28 +199,30 @@ li {
 /* footer */
 footer {
 	margin-bottom: 3rem;
+	background-image: url(/starter-code/assets/bg-footer-squiggle.svg);
 }
 footer h2 {
 	padding: 0 2rem 2rem 2rem;
-	background-image: url(/starter-code/assets/bg-footer-squiggle.svg);
 }
 
 input,
 button {
 	width: 100%;
-	height: 2rem;
+	padding: 0.75rem;
 	border-radius: 24px;
 	font-weight: 800;
-
-	margin-bottom: 1rem;
+	border: none;
+	margin-bottom: 1.5rem;
 }
 
 input {
 	background-color: var(--dark-turquoise);
 	outline: none;
+	padding-left: 1rem;
 }
 
 button {
+	color: var(--very-dark-blue);
 	background-color: var(--turquoise);
-	padding: 1rem;
+	cursor: pointer;
 }
