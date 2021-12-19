@@ -22,7 +22,9 @@ body {
 }
 /* 
 font styles */
-body {
+body,
+input,
+button {
 	font-family: "Manrope", sans-serif;
 }
 
@@ -147,7 +149,7 @@ img.work-from-anywhere {
 	text-align: left;
 	position: relative;
 	border-radius: 0.5rem;
-	margin-bottom: 3rem;
+	margin-bottom: 3.5rem;
 }
 
 .plan h3 {
@@ -195,6 +197,9 @@ li {
 } */
 
 /* footer */
+footer {
+	margin-bottom: 3rem;
+}
 footer h2 {
 	padding: 0 2rem 2rem 2rem;
 	background-image: url(/starter-code/assets/bg-footer-squiggle.svg);
@@ -203,11 +208,19 @@ footer h2 {
 input,
 button {
 	width: 100%;
-	height: 1.5rem;
-	border-radius: 4px;
+	height: 2rem;
+	border-radius: 24px;
+	font-weight: 800;
+
+	margin-bottom: 1rem;
 }
 
 input {
 	background-color: var(--dark-turquoise);
 	outline: none;
+}
+
+button {
+	background-color: var(--turquoise);
+	padding: 1rem;
 }
