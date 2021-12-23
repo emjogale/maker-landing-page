@@ -84,7 +84,12 @@ footer {
 }
 
 .banner img.mobile {
-	width: 120%;
+	width: 100%;
+}
+
+img.left,
+img.right {
+	display: none;
 }
 
 h1 {
@@ -237,7 +242,17 @@ button {
 		padding-left: 2.5rem;
 		align-items: flex-start;
 	}
-	.banner.img.mobile {
+	img.mobile {
 		display: none;
+	}
+	img.left,
+	img.right {
+		display: block;
+	}
+	.banner {
+		display: flex;
+	}
+	.plus-point {
+		display: flex;
 	}
 } ;
