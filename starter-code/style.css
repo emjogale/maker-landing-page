@@ -210,10 +210,13 @@ li {
 /* footer */
 footer {
 	margin-bottom: 3rem;
-	background-image: url(/starter-code/assets/bg-footer-squiggle.svg);
 }
 footer h2 {
-	padding: 0 2rem 2rem 2rem;
+	padding: 1rem 2rem;
+	margin: 1rem 0;
+	background: url(/starter-code/assets/bg-footer-squiggle.svg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 }
 
 input,
