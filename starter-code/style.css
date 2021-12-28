@@ -193,7 +193,6 @@ h2.price {
 }
 
 ul {
-	list-style-image: url(/starter-code/assets/icon-check.svg);
 	margin-left: 1.1rem;
 }
 
@@ -201,9 +200,12 @@ li {
 	padding: 0.75rem 0;
 }
 
-/* li::marker {
-	background-color: var(--turquoise);
-} */
+.free ul {
+	list-style-image: url(/starter-code/assets/icon-check-free.svg);
+}
+.paid ul {
+	list-style-image: url(/starter-code/assets/icon-check-paid.svg);
+}
 
 /* footer */
 footer {

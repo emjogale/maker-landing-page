@@ -59,7 +59,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 ### What I learned
 
 I learnt about centering images within a container. I went for the flexbox approach and realised that flexbox isn't just for the main layout of a page but can be used in small sections.
-I learnt you can change the diplay of an heading element to inline-block so you can absolutely position a span against the text within the heading
+I learnt you can change the diplay of an heading element to inline-block so you can absolutely position a span against the text within the heading.
+I discovered how to change the colour of an SVG image - by changing the 'fill' propery in the SVG file.
 
 ### Continued development
 
