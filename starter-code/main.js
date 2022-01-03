@@ -10,14 +10,12 @@ const isEmailValid = (email) => {
 };
 // email validator helper function
 const checkEmail = () => {
-	let valid = false;
 	const email = emailEl.value.trim();
 	if (!isEmailValid(email)) {
-		console.log("no -not a valid email!!!");
-		// showError(emailEl, "Looks like this is not an email");
+		console.log("nooooo not an email!!!");
 	} else {
 		// success(emailEl);
-		valid = true;
+		console.log("form validated!!!");
 	}
 };
 
@@ -27,6 +25,7 @@ const checkEmail = () => {
 // const showError = (input, message) => {
 // 	// get the form field element
 // 	const formField = input.parentElement;
+
 // 	// add the error class
 // 	formField.classList.add("error");
 // 	// show the error message
