@@ -241,8 +241,12 @@ button {
 	margin-top: 1.5rem;
 }
 
+small {
+	display: none;
+}
+
 /* error styles */
-small.error-message {
+.error-message {
 	display: block;
 	padding-left: 1rem;
 	padding-top: 0.5rem;
@@ -252,6 +256,7 @@ small.error-message {
 
 input.error-message {
 	border: 2px solid var(--error);
+	color: white;
 }
 
 small.error-message {

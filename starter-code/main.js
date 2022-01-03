@@ -1,7 +1,8 @@
 // select the button and email elements
 const buttonEl = document.querySelector("#button");
 const emailEl = document.querySelector("#email");
-
+const errorMessageEl = document.querySelector(".message");
+console.log(errorMessageEl);
 // email checker helper function
 // check if an email is valid
 const isEmailValid = (email) => {
@@ -13,6 +14,8 @@ const checkEmail = () => {
 	const email = emailEl.value.trim();
 	if (!isEmailValid(email)) {
 		console.log("nooooo not an email!!!");
+		errorMessageEl.classList.add("error-message");
+		emailEl.classList.add("error-message");
 	} else {
 		// success(emailEl);
 		console.log("form validated!!!");
