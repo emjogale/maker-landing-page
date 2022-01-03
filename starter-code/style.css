@@ -226,7 +226,6 @@ button {
 	border-radius: 24px;
 	font-weight: 800;
 	border: none;
-	margin-bottom: 1.5rem;
 }
 
 input {
@@ -239,10 +238,24 @@ button {
 	color: var(--very-dark-blue);
 	background-color: var(--turquoise);
 	cursor: pointer;
+	margin-top: 1.5rem;
 }
 
-.error {
-	background-color: red;
+/* error styles */
+small.error-message {
+	display: block;
+	padding-left: 1rem;
+	padding-top: 0.5rem;
+	color: var(--error);
+	font-size: 0.75rem;
+}
+
+input.error-message {
+	border: 2px solid var(--error);
+}
+
+small.error-message {
+	text-align: left;
 }
 
 /* tablet styles */
