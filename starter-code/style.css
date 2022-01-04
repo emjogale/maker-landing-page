@@ -225,12 +225,12 @@ button {
 	padding: 0.75rem;
 	border-radius: 24px;
 	font-weight: 800;
-	border: none;
+	border: 2px solid transparent;
+	outline: none;
 }
 
 input {
 	background-color: var(--dark-turquoise);
-	outline: none;
 	padding-left: 1rem;
 }
 
@@ -239,6 +239,12 @@ button {
 	background-color: var(--turquoise);
 	cursor: pointer;
 	margin-top: 1.5rem;
+}
+
+button:hover {
+	background-color: var(--very-dark-blue);
+	border: 2px solid var(--turquoise);
+	color: white;
 }
 
 small {
