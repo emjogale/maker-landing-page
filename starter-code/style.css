@@ -83,6 +83,16 @@ footer {
 	text-align: center;
 }
 
+/* hero area */
+.hero-words {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.hero-words h1 {
+	margin-top: 2rem;
+}
 .hero img.mobile {
 	width: 100%;
 }
@@ -289,9 +299,26 @@ small.error-message {
 		align-items: center;
 		width: 100%;
 	}
+
+	h1 {
+		margin: 1rem 0 1.5rem 0;
+	}
 	.hero-words {
-		flex-grow: 1.75;
-		/* background-image: url(/starter-code/assets/bg-hero-squiggle.svg); */
+		flex-grow: 2;
+		background-image: url(/starter-code/assets/bg-hero-squiggle.svg);
+		padding: 2rem 0.6rem;
+	}
+
+	.img-right,
+	.img-left {
+		height: 356px;
+		width: 356px;
+	}
+	.img-left {
+		background-image: url(/starter-code/assets/illustration-hero-left.svg);
+	}
+	.img-right {
+		background-image: url(/starter-code/assets/illustration-hero-right.svg);
 	}
 	.plus-point {
 		display: flex;
