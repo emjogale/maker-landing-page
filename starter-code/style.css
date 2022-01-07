@@ -83,7 +83,7 @@ footer {
 	text-align: center;
 }
 
-.banner img.mobile {
+.hero img.mobile {
 	width: 100%;
 }
 
@@ -281,11 +281,21 @@ small.error-message {
 	img.left,
 	img.right {
 		display: block;
+		overflow: hidden;
 	}
-	.banner {
+	.hero {
 		display: flex;
+		/* height: 40vh; */
+		align-items: center;
+		width: 100%;
+	}
+	.hero-words {
+		flex-grow: 1.75;
+		/* background-image: url(/starter-code/assets/bg-hero-squiggle.svg); */
 	}
 	.plus-point {
 		display: flex;
+		/* width: 70%; */ /* this got margins but quashed the pictures!*/
+		margin: 0 auto;
 	}
 } ;
