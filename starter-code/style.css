@@ -328,11 +328,11 @@ small.error-message {
 	}
 
 	.plus-point:nth-child(odd) {
-		padding-left: 2rem;
+		padding-left: 2.5rem;
 	}
 
 	.plus-point:nth-child(even) {
-		padding-right: 2rem;
+		padding-right: 2.5rem;
 	}
 	.plus-point {
 		display: flex;
@@ -342,7 +342,23 @@ small.error-message {
 
 	.plus-point .text-container {
 		text-align: left;
-		padding-left: 3rem;
+		padding-left: 3.5rem;
 		flex-shrink: 3;
 	}
+
+	/* pricing section */
+	.pricing {
+		margin-top: 3.5rem;
+		margin-bottom: 0;
+	}
+
+	.pricing p {
+		padding-bottom: 3rem;
+	}
+
+	.plans {
+		width: 75%;
+		margin: 2rem auto;
+	}
+	/* TODO: put email input and get notified button on the same line */
 } ;
