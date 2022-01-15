@@ -295,9 +295,9 @@ small.error-message {
 	}
 	.hero {
 		display: flex;
-		/* height: 40vh; */
 		align-items: center;
 		width: 100%;
+		margin-bottom: 3rem;
 	}
 
 	h1 {
@@ -320,9 +320,29 @@ small.error-message {
 	.img-right {
 		background-image: url(/starter-code/assets/illustration-hero-right.svg);
 	}
+
+	/* main section */
+	.main {
+		width: 75%;
+		margin: 0 auto;
+	}
+
+	.plus-point:nth-child(odd) {
+		padding-left: 2rem;
+	}
+
+	.plus-point:nth-child(even) {
+		padding-right: 2rem;
+	}
 	.plus-point {
 		display: flex;
-		/* width: 70%; */ /* this got margins but quashed the pictures!*/
+		align-items: center;
 		margin: 0 auto;
+	}
+
+	.plus-point .text-container {
+		text-align: left;
+		padding-left: 3rem;
+		flex-shrink: 3;
 	}
 } ;
