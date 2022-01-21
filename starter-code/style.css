@@ -223,7 +223,7 @@ footer {
 }
 footer h2 {
 	padding: 1rem 2rem;
-	margin: 1rem 0;
+	margin: 1rem auto;
 	background: url(/starter-code/assets/bg-footer-squiggle.svg);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
@@ -360,5 +360,19 @@ small.error-message {
 		width: 75%;
 		margin: 2rem auto;
 	}
-	/* TODO: put email input and get notified button on the same line */
-} ;
+	form {
+		width: 65%;
+		height: 80px;
+		margin: 0 auto;
+	}
+
+	input {
+		width: 65%;
+		display: inline;
+		margin-right: 1rem;
+	}
+	button {
+		width: 30%;
+		margin-top: 0;
+	}
+}
