@@ -229,6 +229,10 @@ footer h2 {
 	background-repeat: no-repeat;
 }
 
+form {
+	position: relative;
+}
+
 input,
 button {
 	width: 100%;
@@ -242,13 +246,15 @@ button {
 input {
 	background-color: var(--dark-turquoise);
 	padding-left: 1rem;
+	border: 2px solid transparent;
 }
 
 button {
 	color: var(--very-dark-blue);
 	background-color: var(--turquoise);
 	cursor: pointer;
-	margin-top: 1.5rem;
+	border: 2px solid transparent;
+	margin-top: 1.8rem;
 }
 
 button:hover {
@@ -263,7 +269,7 @@ small {
 
 /* error styles */
 .error-message {
-	display: block;
+	display: inline;
 	padding-left: 1rem;
 	padding-top: 0.5rem;
 	color: var(--error);
@@ -273,10 +279,14 @@ small {
 input.error-message {
 	border: 2px solid var(--error);
 	color: white;
+	position: relative;
 }
 
 small.error-message {
 	text-align: left;
+	position: absolute;
+	left: 0.5rem;
+	top: 2.5rem;
 }
 
 /* tablet styles */
@@ -361,18 +371,22 @@ small.error-message {
 		margin: 2rem auto;
 	}
 	form {
-		width: 65%;
+		width: 70%;
 		height: 80px;
 		margin: 0 auto;
 	}
 
 	input {
-		width: 65%;
+		width: 60%;
 		display: inline;
 		margin-right: 1rem;
 	}
 	button {
 		width: 30%;
 		margin-top: 0;
+	}
+	small.error-message {
+		left: 0.5rem;
+		top: 3rem;
 	}
 }
