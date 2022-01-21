@@ -390,3 +390,39 @@ small.error-message {
 		top: 3rem;
 	}
 }
+
+/* desktop styles */
+@media only screen and (min-width: 1410px) {
+	header {
+		padding-left: 10rem;
+	}
+
+	.hero {
+		margin-bottom: 8rem;
+	}
+	.hero-words {
+		width: 40%;
+		flex-grow: 1;
+		margin: 2rem 5.5rem 0 5.5rem;
+		align-self: flex-end;
+	}
+	.hero .img-left,
+	.hero .img-right {
+		flex-grow: 2;
+	}
+	.plus-points {
+		flex-direction: row;
+	}
+	.plus-point {
+		flex-direction: column;
+		padding-right: 2rem;
+	}
+
+	.plus-point .img-container {
+		margin-left: 0;
+	}
+
+	.plus-point .text-container {
+		padding: 1rem 0;
+	}
+}
