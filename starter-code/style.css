@@ -416,6 +416,7 @@ small.error-message {
 	.plus-point {
 		flex-direction: column;
 		padding-right: 2rem;
+		padding-left: 0;
 	}
 
 	.plus-point .img-container {
@@ -424,5 +425,9 @@ small.error-message {
 
 	.plus-point .text-container {
 		padding: 1rem 0;
+	}
+	.plus-point:nth-child(even) {
+		padding-top: 2.5rem;
+		padding-right: 0;
 	}
 }
