@@ -389,6 +389,14 @@ small.error-message {
 		left: 0.5rem;
 		top: 3rem;
 	}
+	footer h2 {
+		background: none;
+	}
+	footer {
+		background: url(/starter-code/assets/bg-footer-squiggle.svg);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
 }
 
 /* desktop styles */
@@ -436,5 +444,13 @@ small.error-message {
 	.pricing p {
 		width: 60%;
 		margin: 0 auto;
+	}
+	.plans {
+		flex-direction: row;
+		width: 95%;
+	}
+	/* TODO: work out how to make the free plan slightly smaller than the paid one and also to have a gap between them */
+	form {
+		width: 30%;
 	}
 }
