@@ -430,4 +430,11 @@ small.error-message {
 		padding-top: 2.5rem;
 		padding-right: 0;
 	}
+	.pricing {
+		margin-top: 3rem;
+	}
+	.pricing p {
+		width: 60%;
+		margin: 0 auto;
+	}
 }
