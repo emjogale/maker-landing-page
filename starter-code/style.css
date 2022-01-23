@@ -162,7 +162,6 @@ img.work-from-anywhere {
 	position: relative;
 	border-radius: 0.5rem;
 	margin-bottom: 3.5rem;
-	width: 48%;
 }
 
 .plan h3 {
@@ -287,7 +286,7 @@ small.error-message {
 	text-align: left;
 	position: absolute;
 	left: 0.5rem;
-	top: 2.5rem;
+	top: 3rem;
 }
 
 /* tablet styles */
@@ -465,6 +464,9 @@ small.error-message {
 	.plans {
 		flex-direction: row;
 		width: 95%;
+	}
+	.plan {
+		width: 48%;
 	}
 
 	.plan.free {
