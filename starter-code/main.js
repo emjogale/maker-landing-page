@@ -15,6 +15,7 @@ const checkEmail = () => {
 	if (!email) {
 		errorMessageEl[0].classList.remove("error-message");
 		errorMessageEl[1].classList.add("error-message");
+		emailEl.classList.add("error-message");
 	} else if (!isEmailValid(email)) {
 		errorMessageEl[1].classList.remove("error-message");
 		errorMessageEl[0].classList.add("error-message");
@@ -24,6 +25,7 @@ const checkEmail = () => {
 		errorMessageEl[0].classList.remove("error-message");
 		errorMessageEl[1].classList.remove("error-message");
 		console.log("form validated!!!");
+		emailEl.classList.remove("error-message");
 	}
 };
 
