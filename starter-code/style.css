@@ -152,6 +152,7 @@ img.work-from-anywhere {
 .plans {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	margin: 3.5rem 0 2rem 0;
 }
 
@@ -161,6 +162,7 @@ img.work-from-anywhere {
 	position: relative;
 	border-radius: 0.5rem;
 	margin-bottom: 3.5rem;
+	width: 48%;
 }
 
 .plan h3 {
@@ -271,7 +273,6 @@ small {
 .error-message {
 	display: inline;
 	padding-left: 1rem;
-	padding-top: 0.5rem;
 	color: var(--error);
 	font-size: 0.75rem;
 }
@@ -457,21 +458,27 @@ small.error-message {
 	.pricing {
 		margin-top: 3rem;
 	}
-	.pricing p {
+	p.pricing-top {
 		width: 60%;
-		margin: 0 auto;
+		margin: 0 auto 4.5rem auto;
 	}
 	.plans {
 		flex-direction: row;
 		width: 95%;
 	}
-	/* TODO: work out how to make the free plan slightly smaller than the paid one and also to have a gap between them.
-	
-	Add more space between plus-points and pricing plans
-	
-	And look at height of inpout and button it seems to be different!
+
+	.plan.free {
+		margin-top: 1rem;
+		margin-bottom: 4rem;
+	}
+	footer h1 {
+		margin-top: 3rem;
+		padding: 2rem 0;
+	}
+
+	/* And look at height of inpout and button it seems to be different!
 	*/
 	form {
-		width: 30%;
+		width: 40%;
 	}
 }
