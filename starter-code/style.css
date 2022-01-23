@@ -482,5 +482,10 @@ small.error-message {
 	*/
 	form {
 		width: 40%;
+		margin-top: 2rem;
+	}
+
+	small.error-message {
+		top: 3.5rem;
 	}
 }
