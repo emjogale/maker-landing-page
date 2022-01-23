@@ -410,6 +410,8 @@ small.error-message {
 @media only screen and (min-width: 1250px) {
 	header {
 		padding-left: 10rem;
+		margin-top: 5rem;
+		margin-bottom: 4rem;
 	}
 
 	.hero {
@@ -444,6 +446,9 @@ small.error-message {
 
 	.plus-point .img-container {
 		margin-left: 0;
+
+		width: 160px;
+		height: 164px;
 	}
 
 	.plus-point .text-container {
