@@ -331,6 +331,7 @@ small.error-message {
 		background-image: url(/starter-code/assets/illustration-hero-left.svg);
 		background-size: cover;
 		background-repeat: no-repeat;
+		background-position: right;
 	}
 	.img-right {
 		background-image: url(/starter-code/assets/illustration-hero-right.svg);
@@ -428,8 +429,7 @@ small.error-message {
 	}
 	.hero-words {
 		width: 50%;
-		margin: 0 5.5rem 0 5.5rem;
-		align-self: flex-end;
+		margin: 2rem 5.5rem 0 5.5rem;
 	}
 	.hero-words p {
 		margin: 0 1rem 4rem 1rem;
@@ -439,8 +439,7 @@ small.error-message {
 	.hero .img-right {
 		flex-grow: 2;
 		min-height: 459px;
-
-		margin-top: 6rem;
+		margin-top: 4rem;
 	}
 	img.scroll-img {
 		margin-top: 0;
