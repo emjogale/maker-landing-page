@@ -433,6 +433,7 @@ small.error-message {
 	}
 	.hero-words p {
 		margin: 0 1rem 4rem 1rem;
+		padding-top: 0;
 	}
 	.hero .img-left,
 	.hero .img-right {
@@ -471,7 +472,7 @@ small.error-message {
 		padding-left: 0;
 	}
 	.pricing {
-		margin-top: 3rem;
+		margin-top: 5rem;
 	}
 	p.pricing-top {
 		width: 60%;
@@ -484,13 +485,16 @@ small.error-message {
 	.plan {
 		width: 48%;
 	}
+	.plan p {
+		padding-bottom: 1rem;
+	}
 
 	.plan.free {
 		margin-top: 1rem;
 		margin-bottom: 4rem;
 	}
 	footer {
-		margin-bottom: 5rem;
+		margin-bottom: 7rem;
 	}
 	footer h2 {
 		margin-top: 4rem;
