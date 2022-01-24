@@ -329,12 +329,12 @@ small.error-message {
 	}
 	.img-left {
 		background-image: url(/starter-code/assets/illustration-hero-left.svg);
-		background-size: contain;
+		background-size: cover;
 		background-repeat: no-repeat;
 	}
 	.img-right {
 		background-image: url(/starter-code/assets/illustration-hero-right.svg);
-		background-size: contain;
+		background-size: cover;
 		background-repeat: no-repeat;
 	}
 
