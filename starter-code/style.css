@@ -437,8 +437,8 @@ small.error-message {
 	.hero .img-left,
 	.hero .img-right {
 		flex-grow: 2;
-		height: 459px;
-		width: 408px;
+		min-height: 459px;
+
 		margin-top: 6rem;
 	}
 	img.scroll-img {
@@ -489,9 +489,9 @@ small.error-message {
 		margin-top: 1rem;
 		margin-bottom: 4rem;
 	}
-	footer h1 {
-		margin-top: 3rem;
-		padding: 2rem 0;
+	footer h2 {
+		margin-top: 4rem;
+		padding: 3rem 0 1rem 0;
 	}
 
 	/* And look at height of inpout and button it seems to be different!
