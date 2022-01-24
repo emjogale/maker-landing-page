@@ -489,13 +489,14 @@ small.error-message {
 		margin-top: 1rem;
 		margin-bottom: 4rem;
 	}
+	footer {
+		margin-bottom: 5rem;
+	}
 	footer h2 {
 		margin-top: 4rem;
 		padding: 3rem 0 2rem 0;
 	}
 
-	/* And look at height of inpout and button it seems to be different!
-	*/
 	form {
 		width: 40%;
 		margin-top: 2rem;
