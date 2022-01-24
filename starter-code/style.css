@@ -418,7 +418,7 @@ small.error-message {
 		margin-bottom: 8rem;
 	}
 
-	h1 {
+	.hero-words h1 {
 		font-size: 3rem;
 		line-height: 1.2;
 		margin-top: 0;
@@ -432,7 +432,7 @@ small.error-message {
 		align-self: flex-end;
 	}
 	.hero-words p {
-		padding: 0 1rem 4rem 1rem;
+		margin: 0 1rem 4rem 1rem;
 	}
 	.hero .img-left,
 	.hero .img-right {
@@ -491,7 +491,7 @@ small.error-message {
 	}
 	footer h2 {
 		margin-top: 4rem;
-		padding: 3rem 0 1rem 0;
+		padding: 3rem 0 2rem 0;
 	}
 
 	/* And look at height of inpout and button it seems to be different!
