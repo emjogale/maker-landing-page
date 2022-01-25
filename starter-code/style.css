@@ -241,7 +241,7 @@ form {
 input,
 button {
 	width: 100%;
-	padding: 0.75rem;
+	padding: 0.8rem;
 	border-radius: 24px;
 	font-weight: 800;
 	border: 2px solid transparent;
@@ -252,6 +252,9 @@ input {
 	background-color: var(--dark-turquoise);
 	padding-left: 1rem;
 	border: 2px solid transparent;
+}
+::placeholder {
+	color: white;
 }
 
 button {
@@ -430,7 +433,7 @@ small.error-message {
 	}
 	.hero-words {
 		width: 50%;
-		margin: 2rem 5.5rem 0 5.5rem;
+		margin: 2rem 6rem 0 5.5rem;
 	}
 	.hero-words p {
 		margin: 0 1rem 4rem 1rem;
@@ -472,7 +475,8 @@ small.error-message {
 		padding-left: 0;
 	}
 	.pricing {
-		margin-top: 5rem;
+		margin-top: 4rem;
+		margin-bottom: 1rem;
 	}
 	p.pricing-top {
 		width: 60%;
@@ -484,6 +488,7 @@ small.error-message {
 	}
 	.plan {
 		width: 48%;
+		padding-top: 1.5rem;
 	}
 	.plan p {
 		padding-bottom: 1rem;
@@ -503,7 +508,7 @@ small.error-message {
 
 	form {
 		width: 40%;
-		margin-top: 2rem;
+		margin-top: 1.8rem;
 	}
 
 	small.error-message {
