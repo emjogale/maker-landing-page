@@ -318,7 +318,7 @@ small.error-message {
 	}
 
 	.hero-words {
-		flex-grow: 2;
+		max-width: 50%;
 		background-image: url(/starter-code/assets/bg-hero-squiggle.svg);
 		background-size: contain;
 		background-repeat: no-repeat;
@@ -475,7 +475,7 @@ small.error-message {
 		padding-left: 0;
 	}
 	.pricing {
-		margin-top: 4rem;
+		margin-top: 6rem;
 		margin-bottom: 1rem;
 	}
 	p.pricing-top {
